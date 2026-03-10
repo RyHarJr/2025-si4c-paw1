@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+/* hp max-width: 600px */
+body {
+  background-color: aquamarine;
+  text-align: center;
+  color: white;
+
+  padding: 0;
+  margin: 0;
+}
+
+.a {
+  width: 100%;
+  float: left;
+  padding: 5px;
+}
+
+.b {
+  padding: 5px;
+  float: left;
+  width: 100%;
+}
+
+.row {
+  clear: both;
+}
+
+/* tablet min-width: 600px */
+@media screen and (min-width: 600px) {
+  body {
+    background-color: red;
+  }
+
+    .a {
+      width: 50%;
+    }
+
+    .b {
+      width: 100%;
+    }
+}
+
+/* laptop min-width: 992px */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: hotpink;
+  }
+
+  .a {
+    width: 25%
+  }
+
+  .b {
+    width: 50%
+  }
+}
