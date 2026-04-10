@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RyHar | Portofolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-archive fixed-top">
+      <div class="container" style="max-width: 1440px">
+        <a class="navbar-brand" href="#">RyHar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto gap-4">
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-nav">Let's Talk</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section d-flex align-items-center position-relative px-3">
+        <div class="container" style="max-width: 1440px">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7 position-relative" style="z-index: 1">
+              <h1 class="hero-title mb-4">
+                FULL STACK <br />
+                <span class="accent">DEVELOPER.</span>
+              </h1>
+              <p class="hero-subtitle mb-5">
+                Hi, I'm
+                <span class="name-highlight">Ahmad Rizki Hartawan</span>. I build scalable web applications and automation systems that solve real-world problems.
+              </p>
+              <div class="d-flex flex-column flex-sm-row gap-3">
+                <a href="#projects" class="btn btn-primary-archive btn-lg text-center">View My Work</a>
+                <a href="#about" class="btn btn-outline-archive btn-lg text-center">Meet the Architect</a>
+              </div>
+            </div>
+            <div class="col-lg-5 position-relative" style="z-index: 1">
+              <div class="hero-image">
+                <img src="./image//hero.png" alt="Julian Thorne Professional Portrait" class="img-fluid" />
+                <div class="position-absolute top-0 start-0 w-100 h-100" style="box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1); border-radius: 1rem"></div>
+              </div>
+              <div class="hero-bg-blob" style="width: 8rem; height: 8rem; background: rgba(116, 251, 187, 0.2); bottom: -1.5rem; left: -1.5rem"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Background blobs -->
+        <div class="hero-bg-blob" style="width: 600px; height: 600px; background: rgba(116, 251, 187, 0.1); right: -80px; top: 25%"></div>
+        <div class="hero-bg-blob" style="width: 400px; height: 400px; background: rgba(0, 73, 230, 0.05); left: -80px; bottom: 0"></div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section py-5" id="about">
+        <div class="container py-5" style="max-width: 1440px">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="about-sticky" style="position: sticky; top: 8rem">
+                <span class="section-label d-block mb-3">Philosophy</span>
+                <h2 class="section-title display-6 mb-4">Crafting efficient systems with clarity and intention.</h2>
+                <div class="d-flex align-items-center gap-3">
+                  <div style="width: 3rem; height: 1px; background: var(--on-background); opacity: 0.3"></div>
+                  <p class="font-body fst-italic fs-4 mb-0">Ahmad Rizki Hartawan</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row gy-4 mb-4">
+                <div class="col-md-6">
+                  <h3 class="about-sub-title mb-3">Biography</h3>
+                  <p class="fs-5 lh-lg" style="opacity: 0.9">Based in Indonesia, I work at the intersection of web development and system automation. As an Information Systems student, I focus on building scalable digital solutions that are both practical and reliable.</p>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="about-sub-title mb-3">Design Values</h3>
+                  <p class="fs-5 lh-lg" style="opacity: 0.9">My approach emphasizes simplicity, performance, and usability. I treat every project as a system—structured, maintainable, and built with purpose.</p>
+                </div>
+              </div>
+              <div class="about-card p-4 p-lg-5">
+                <h3 class="about-sub-title mb-4">Off the Clock</h3>
+                <div class="row gy-4">
+                  <div class="col-sm-4">
+                    <p class="font-headline fw-bold fs-5 mb-2">Systems Exploration</p>
+                    <p class="fst-italic fs-5" style="opacity: 0.7">Building bots, experimenting with APIs, and automating workflows.</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <p class="font-headline fw-bold fs-5 mb-2">Continuous Learning</p>
+                    <p class="fst-italic fs-5" style="opacity: 0.7">Staying up-to-date with modern web technologies and development practices.</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <p class="font-headline fw-bold fs-5 mb-2">Independent Projects</p>
+                    <p class="fst-italic fs-5" style="opacity: 0.7">Developing personal applications to explore new ideas and refine technical skills.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Selected Projects -->
+      <section class="py-5" id="projects" style="background: var(--surface)">
+        <div class="container py-5" style="max-width: 1440px">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5 gap-3">
+            <div style="max-width: 500px">
+              <span class="section-label d-block mb-3">Curated Archive</span>
+              <h2 class="section-title display-5">Selected Projects</h2>
+            </div>
+            <p class="fs-5 fst-italic" style="max-width: 400px; opacity: 0.7">A collection of digital artifacts defined by minimalism and intent.</p>
+          </div>
+          <div class="row g-4">
+            <!-- Project 1 (Large) -->
+            <a href="https://ryhar.my.id/" target="_blank" class="col-md-8">
+              <div class="project-card">
+                <div class="project-large overflow-hidden">
+                  <img src="./image/portofolio.png" alt="Clean minimalist web interface" />
+                </div>
+                <div class="project-overlay p-4 p-lg-5">
+                  <span class="project-tag mb-2">Portofolio Website</span>
+                  <h3 class="fs-2">Ahmad Rizki Hartawan</h3>
+                </div>
+              </div>
+            </a>
+            <!-- Project 2 (Small) -->
+            <a href="https://sibanjir.ryhar.my.id/" target="_blank" class="col-md-4">
+              <div class="project-card">
+                <div class="project-square overflow-hidden">
+                  <img src="./image/sibanjir.png" alt="Mobile app design" />
+                </div>
+                <div class="project-overlay">
+                  <span class="project-tag mb-2">SiBanjir Website</span>
+                  <h3 class="fs-4">SiBanjir</h3>
+                </div>
+              </div>
+            </a>
+            <!-- Project 3 (Small) -->
+            <a href="https://dash.ryhar.my.id/" target="_blank" class="col-md-4">
+              <div class="project-card">
+                <div class="project-square overflow-hidden">
+                  <img src="./image/ryhar-api.png" alt="Minimalist typography poster" />
+                </div>
+                <div class="project-overlay">
+                  <span class="project-tag mb-2">RESTful API</span>
+                  <h3 class="fs-4">RyHar API</h3>
+                </div>
+              </div>
+            </a>
+            <!-- Project 4 (Large) -->
+            <a href="https://ryhar-panel.my.id/" target="_blank" class="col-md-8">
+              <div class="project-card">
+                <div class="project-large overflow-hidden">
+                  <img src="./image/ryhar-panel.png" alt="Interior architectural design" />
+                </div>
+                <div class="project-overlay p-4 p-lg-5">
+                  <span class="project-tag mb-2">Panel Monitor</span>
+                  <h3 class="fs-2">RyHar Panel</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section py-5" id="services">
+        <div class="container py-5" style="max-width: 1440px">
+          <div class="row gy-5">
+            <div class="col-lg-5">
+              <span class="section-label secondary d-block mb-3">Capabilities</span>
+              <h2 class="section-title display-5 mb-4">Architecting the digital narrative.</h2>
+              <p class="fs-4 fst-italic lh-lg" style="opacity: 0.7">I bridge the gap between complex functionality and human emotion through rigorous design systems.</p>
+            </div>
+            <div class="col-lg-7">
+              <div class="services-grid">
+                <div class="row g-1">
+                  <div class="col-sm-6">
+                    <div class="service-card">
+                      <span class="material-symbols-outlined mb-4">architecture</span>
+                      <h4 class="mb-3">Web Development</h4>
+                      <p>Building modern, scalable web applications using Next.js, Tailwind, and modular architecture.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="service-card">
+                      <span class="material-symbols-outlined mb-4">auto_awesome</span>
+                      <h4 class="mb-3">Automation & Bot Development</h4>
+                      <p>Developing automation systems and bots (WhatsApp, API integrations) to streamline workflows and improve efficiency.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="service-card">
+                      <span class="material-symbols-outlined mb-4">code</span>
+                      <h4 class="mb-3">Backend & Database</h4>
+                      <p>Designing robust APIs and managing databases (MongoDB, JSON, or cloud-based systems) for reliable performance.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="service-card">
+                      <span class="material-symbols-outlined mb-4">draw</span>
+                      <h4 class="mb-3">UI Implementation</h4>
+                      <p>CTransforming design concepts into responsive, clean, and user-friendly interfaces.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="py-5" id="contact" style="background: var(--surface)">
+        <div class="container py-5" style="max-width: 1440px">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <h2 class="contact-title display-5 font-headline fw-bold mb-4" style="letter-spacing: -0.04em; line-height: 1">
+                Let's start <br />
+                <span class="accent">the dialogue.</span>
+              </h2>
+              <div class="mt-5">
+                <div class="mb-4">
+                  <p class="form-label-custom mb-1">Direct Inquiry</p>
+                  <a class="fs-4 font-headline fw-bold editorial-underline" href="mailto:hello@jthorne.archive">ryharofficial@gmail.com</a>
+                </div>
+                <div class="mb-4">
+                  <p class="form-label-custom mb-1">Location</p>
+                  <p class="fs-4 font-headline fw-bold mb-0">Indonesia / Palembang</p>
+                </div>
+                <div class="d-flex gap-3">
+                  <a href="#" style="color: var(--primary); transition: color 0.3s">
+                    <span class="material-symbols-outlined fs-2">public</span>
+                  </a>
+                  <a href="#" style="color: var(--primary); transition: color 0.3s">
+                    <span class="material-symbols-outlined fs-2">share</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <form>
+                <div class="row g-4 mb-4">
+                  <div class="col-md-6">
+                    <label class="form-label form-label-custom">Name</label>
+                    <input type="text" class="form-control form-underline" placeholder="Your Full Name" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label form-label-custom">Email Address</label>
+                    <input type="email" class="form-control form-underline" placeholder="email@example.com" />
+                  </div>
+                </div>
+                <div class="mb-5">
+                  <label class="form-label form-label-custom">Project Vision</label>
+                  <textarea class="form-control form-underline" rows="4" placeholder="Briefly describe your goals..." style="resize: none"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark-archive">Send Inquiry</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-archive py-5">
+      <div class="container" style="max-width: 1440px">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
+          <div class="text-center text-md-start">
+            <span class="font-headline fw-bold fs-5" style="color: var(--on-background)">RYHAR.</span>
+            <p class="font-body fst-italic mb-0" style="color: var(--outline-variant)">Crafting efficient systems with clarity and intention.</p>
+          </div>
+          <div class="d-flex gap-4">
+            <a href="https://www.instagram.com/rizki_hr4/">Instagram</a>
+            <a href="https://www.linkedin.com/in/rizkihartawan/">LinkedIn</a>
+          </div>
+          <p class="font-body fst-italic mb-0" style="color: var(--outline-variant); font-size: 0.875rem">&copy; 2026 RYHAR. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
